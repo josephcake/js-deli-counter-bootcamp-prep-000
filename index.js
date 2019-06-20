@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+let count = 0
+>>>>>>> 81834797215b75474a3cf75ec2f7dfd46dc16ffe
 let arry = []
 function takeANumber (arry, name){
   count ++;
@@ -8,6 +12,10 @@ function takeANumber (arry, name){
 
 function nowServing(arry){
   if(arry.length!==0){
+<<<<<<< HEAD
+=======
+    count --;
+>>>>>>> 81834797215b75474a3cf75ec2f7dfd46dc16ffe
   return "Currently serving " + arry.shift() +"."
   } else{
     return "There is nobody waiting to be served!"
